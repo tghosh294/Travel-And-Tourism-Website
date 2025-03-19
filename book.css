@@ -1,0 +1,59 @@
+.heading-title{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+.booking .book-form{
+    padding:2rem;
+    background: #eee;
+
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+.inputBox{
+    flex:1 1 41rem;
+}
+ .inputBox input{
+    width:100%;
+    padding:1.2rem 1.4rem;
+    font-size:1.6rem;
+    color:black;
+    text-transform: none;
+    margin-top: 1.5rem;
+    border:.1rem solid #000;
+}
+
+ .inputBox input:focus{
+    background: rgb(202, 202, 202);
+    color:#fff;
+}
+
+ .inputBox input:focus:placeholder{
+    background: white;
+}
+
+ .inputBox span{
+font-size: 1.5rem;
+color:#777;
+}
+
+.booking .book-form .btn{
+    display: inline-block;
+    background: #000;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.booking .book-form .btn:hover{
+    background: white;
+    color:grey;
+}

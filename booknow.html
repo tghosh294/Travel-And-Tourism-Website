@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Form</title>
+    <link rel="stylesheet" href="book.css">   
+    <link rel="shortcut icon" href="images/logo-transparent-png.png"/>  
+</head>
+<body>
+    <div class="booking">
+        <div class="heading-title">BOOK YOUR TRIP!</div>
+        <form action="book_form.php" method="post" class="book-form">
+            <div class="book-form">
+            <div class="flex">
+                <div class="inputBox">
+                    <span> Name:</span>
+                    <input type="text" placeholder="Enter your name" name="name">
+                </div>
+                <div class="inputBox">
+                    <span> Email:</span>
+                    <input type="email" placeholder="Enter your email" name="email">
+                </div>
+                <div class="inputBox">
+                    <span> Number:</span>
+                    <input type="number" placeholder="Enter your number" name="phone">
+                </div>
+                <div class="inputBox">
+                    <span> Address:</span>
+                    <input type="text" placeholder="Enter your address" name="address">
+                </div>
+                <div class="inputBox">
+                    <span> Where to go:</span>
+                    <input type="text" placeholder="Place you want to visit" name="location">
+                </div>
+                <div class="inputBox">
+                    <span> How many days:</span>
+                    <input type="number" placeholder="Number of guests" name="guests">
+                </div>
+                <div class="inputBox">
+                    <span> Arrivals:</span>
+                    <input type="date" name="arrivals">
+                </div>
+                <div class="inputBox">
+                    <span> leaving:</span>
+                    <input type="date" name="leaving">
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="btn" name="send">
+        </form>
+    </div>
+</div>
+</body>
+</html>
